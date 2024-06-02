@@ -1,0 +1,109 @@
+.container {
+    width: 85vw;
+    background-color: rgba(6, 6, 6, 0.4);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}
+
+.headerRow {
+    height: 15vh;
+    width: 100%;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    color: white;
+
+    div {
+        display: flex;
+        align-items: center;
+        column-gap: 1vw;
+    }
+
+    span {
+        font-size: 1.7vh;
+        font-weight: 500;
+    }
+
+    #backArrow {
+        font-size: 4vh;
+        font-weight: lighter;
+        margin-left: -0.5rem;
+        cursor: pointer;
+        color: #6b6969;
+    }
+
+    h2 {
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+
+.menuContainer {
+    height: 85vh;
+    width: 100%;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    display: flex;
+}
+
+.nameList {
+    border-right: 0.1px solid #5a5656;
+    width: 20%;
+    overflow-y: auto;
+}
+
+.nameList::-webkit-scrollbar {
+    width: 3px;
+    background-color: transparent;
+}
+
+.nameList::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
+
+.nameBox {
+    border-top: 0.1px solid #5a5656;
+    height: 5vh;
+    transition: all ease-in 0.3s;
+    margin-right: 0.5vw;
+    display: flex;
+    align-items: center;
+    padding-inline: 0.5vw;
+    font-weight: 600;
+    font-size: 1.6vh;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+.nameBox:hover {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+}
+
+.detailsConatainer {
+    width: 80%;
+    padding-inline: 2vw;
+
+    img {
+        width: 35vw;
+        aspect-ratio: 3;
+    }
+}
+
+.infoBox {
+    color: white;
+    margin-top: 3vh;
+    width: 35vw;
+
+    h2 {
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 1.7vh;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+}
